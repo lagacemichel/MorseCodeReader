@@ -59,11 +59,11 @@ def outputCharacter(c):
         # (2 units assuming previous dot or dash)
         time.sleep(UNIT_TIME*2)
 
-# Function to encode a whole sring
+# Function to encode a whole string
 def sentence (text):
     # Output each character in turn
     for ch in text:
-        # Only lower case characters are encoded
+        # Only lower-case characters are encoded
         if ch != ' ':
             outputCharacter(ch.lower())
         # Spaces are encoded as 7 units,
@@ -71,7 +71,7 @@ def sentence (text):
         else:
             time.sleep(UNIT_TIME*4)
 
-# Function looped indefenitely
+# Function looped indefinitely
 def loop():
     sentence("Mikes Electro Shack")
     time.sleep(UNIT_TIME*25) # Wait 4 spaces at the end
