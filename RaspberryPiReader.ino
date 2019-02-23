@@ -10,7 +10,7 @@
 
 // Define input and output ports
 #define INPORT 8    // Input port connected to Raspberry Pi
-#define OUTPORT 13  // Output port to builtin 
+#define OUTPORT 13  // Output port to built-in 
 
 // Time to wait in milliseconds between samples
 #define SAMPLE_DELAY 10
@@ -27,7 +27,7 @@ void loop() {
     // Read value from Raspberry Pi
     bool value = digitalRead(INPORT);
     
-    // Output value to built in LED
+    // Output value to built-in LED
     digitalWrite(OUTPORT, value);
     
     // Wait before next sample
