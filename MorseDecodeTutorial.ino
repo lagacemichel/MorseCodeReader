@@ -1,7 +1,7 @@
 /*
 Morse Code Reader
  
-Program that reads morse code and outputs decoded information to the Serial
+Program that reads Morse code and outputs decoded information to the Serial
 interface. It is associated with the Morse Code decoder blog post on
 https://lagacemichel.com
 
